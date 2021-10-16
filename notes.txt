@@ -1,0 +1,46 @@
+1) take one string from user and count total upper and lower letters from string. 
+   special symbols and digits 
+   
+--------------------------------------------
+
+String - immutable 
+
+StringBuffer 
+StringBuilder 
+
+1) Take 2 string from user and merge both the string into 3rd 
+2) Take 1 string from user and remove all the vowels from string. 
+
+--------------------------------------------
+how many types of data types we have in java ?
+ 
+1) primitive 
+	byte
+	short
+	char
+	int 
+	long
+	float
+	double 
+	boolean 
+	
+2) non primitive
+	class-String 
+	enum 
+	array
+--------------------------------------------
+constructor :- constructor is a special method which has a same name as a class name. 
+				and must not have any return type. 
+				Constructor will call automatically we did not required it. 
+				It will call when we create object/instance.
+	why? use? 
+			constructor is used to initialize instance variable. 
+					
+	
+	type?
+		1) default/no argument constructor  () 
+		2) parameterized/argument constructor(int) 
+		
+		
+	
+	
