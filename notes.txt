@@ -41,6 +41,85 @@ constructor :- constructor is a special method which has a same name as a class 
 		1) default/no argument constructor  () 
 		2) parameterized/argument constructor(int) 
 		
+--------------------------------------------
+Inheritnace:- 
+	inheritance is the process by which object of one class can access property of another class		
+	
+	A class who gives the property is known as Parent , Super or Base class 
+	A class who takes the property is known as Child ,  Sub  or Derived class 
+	 
+	BasicCalc - Parent 
+	SciCacl  - Child 
+	
+	How we can ?
+		extends keyword 
 		
+	In oop, We have 5 Types of Inheritance. 
+	
+	1) single level inheritance
+	2) multi level inheritance
+	3) multiple inheritance
+	4) hir. inheritance
+	5) hybird inh. 
+	
+	code reuse -> inheritance 
+	
+	class RBI {
+		void roi(){
+	      // 7%
+		}
+		void penalty(){
+			//500RS 
+		}
+	
+	}	
+	
+	class ICICI extends RBI{
+	
+	}
+	
+	class SBI extends RBI{
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
