@@ -42,7 +42,7 @@ constructor :- constructor is a special method which has a same name as a class 
 		2) parameterized/argument constructor(int) 
 		
 --------------------------------------------
-Inheritnace:- 
+Inheritance:- 
 	inheritance is the process by which object of one class can access property of another class		
 	
 	A class who gives the property is known as Parent , Super or Base class 
@@ -82,8 +82,34 @@ Inheritnace:-
 	
 	}
 	
+---------------------------------------------------------------------
+____extends________keyword is used to achieve inheritance in java? 
+
+class who is giving the property in inheritance is known as _paretn/super/base____ class ??
+
+how many types of inheritance we have in oop? -> 5 
+---------------------------------------------------------------------
+
+method overriding :- 	
+			if child class create a method having as same as signature with parent. 
+			
+			return type , method name and argument , all are must be same 
+				
+
+---------------------------------------------------------------------
 	
+method overloading - if a class having method more than one time with same name but different arguments.
 	
+---------------------------------------------------------------------
+Create a class Employee having three fields , name , basicSalary and Salary.
+create one derived class of Employee name it FullTimeEmployee and add two property 1) hourlyRate 2) bonus. 
+
+create methods to scan and print all the data of FullTimeEmployee. 
+
+1) how many classes? and their relationship? 
+2) what are the variables? each class?
+3) what are the methods? each class?
+---------------------------------------------------------------------
 	
 	
 	
