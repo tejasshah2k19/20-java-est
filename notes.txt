@@ -110,8 +110,57 @@ create methods to scan and print all the data of FullTimeEmployee.
 2) what are the variables? each class?
 3) what are the methods? each class?
 ---------------------------------------------------------------------
+
+how many types of inheritance we have in oop? -> 5 
+list?	
+1)single
+2)multilevel
+3)multiple --> one class can have directly two Parent 
+4)hirerchical
+5)hybrid 
 	
-	
+java does not support multiple inheritance directly. 
+
+we can not  ,
+
+class A{
+
+}
+
+class B{
+
+}
+
+//below code does not works  
+class C extends A,B{
+
+}
+---------------------------------------------------------------------
+super -->  super keyword is used to access property of parent class 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	
 	
