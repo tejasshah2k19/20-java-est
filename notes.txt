@@ -137,10 +137,26 @@ class C extends A,B{
 }
 ---------------------------------------------------------------------
 super -->  super keyword is used to access property of parent class 
+---------------------------------------------------------------------
+Task: 
+create class Laptop with two constructor default and parameterized. 
+create child class of Laptop , name with Legion , it also have two constructor 
+default and parameterize. 
 
+now answers following question.
 
+1) what will be the output when we create instance of Laptop using default constructor 
+2) what will be the output when we create instance of Laptop using parameterized constructor 
+3) what will be the output when we create instance of Legion using default constructor 
+4) what will be the output when we create instance of Legion using default constructor 
 
-
+5) call Legion and Laptop's parameterized 
+6)	Laptop()
+	Laptop(int)
+	Legion(int)
+	Legion() 
+	
+	
 
 
 
