@@ -157,7 +157,49 @@ now answers following question.
 	Legion() 
 	
 	
+---------------------------------------------------------------------
+JB Restaurant app , 
 
+customer signup before placing order. 
+in signup customer provide , firstName and contactNum. 
+
+In food menu , we have fix three items. 
+Pizza  100RS 
+Pasta  120RS 
+Burger 110RS
+
+Customer can select any item with quantity. 
+
+our app will print final bill once order place. 
+
+App must follow menu driven approach. 
+e.g 
+
+1 For Pizza  100RS
+2 For Pasta  120RS
+3 For Burger 110RS 
+4 For Place Order 
+
+class :-	Customer [ firstName , contactNum , pizzaQty , pastaQty , burgerQty , totalAmount  ]
+
+
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
 
 
 
