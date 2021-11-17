@@ -183,7 +183,9 @@ e.g
 class :-	Customer [ firstName , contactNum , pizzaQty , pastaQty , burgerQty , totalAmount  ]
 
 
-
+New:-
+	1) 10% tax on totalAmount
+	2) Total Quantity of each order must not be > 15 [ 15 included ] [ max 15 ]  
 ---------------------------------------------------------------------
 
 

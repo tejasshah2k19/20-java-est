@@ -66,24 +66,19 @@ public class JbMenuApp {
 		}
 	}
 }
-
 class Customer {
 	String firstName, contactNum;
 	int pizzaQty, pastaQty, burgerQty, totalAmount;
 	Scanner scr = new Scanner(System.in);
-
 	Customer() {
 		pizzaQty = 0;
 		pastaQty = 0;
 		burgerQty = 0;
-		totalAmount = 0;
+		totalAmount   = 0;
 	}
-
 	void signup() {
-
 		System.out.println("Enter your FirstName and ContactNum");
 		firstName = scr.next();
 		contactNum = scr.next();
 	}
-
 }
