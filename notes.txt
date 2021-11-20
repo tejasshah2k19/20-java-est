@@ -187,10 +187,26 @@ New:-
 	1) 10% tax on totalAmount
 	2) Total Quantity of each order must not be > 15 [ 15 included ] [ max 15 ]  
 ---------------------------------------------------------------------
+Ticket booking app 
+
+Three types of tickets , 
+	1) Gold    250 RS 
+	2) Silver  200 RS 
+	3) Diamond 300 RS 
+	
+User can book any numbers of ticket with multiple category. 
+for booking user need to provide their mobile number. 
+
+once booking done our app will display total payment with tickets details. 
+
+  	Press , 
+	1) Gold 
+	2) Silver 
+	3) Diamond 
+	4) Exit 
 
 
-
-
+---------------------------------------------------------------------
 
 
 
