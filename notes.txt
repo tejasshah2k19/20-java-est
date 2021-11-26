@@ -204,20 +204,61 @@ once booking done our app will display total payment with tickets details.
 	2) Silver 
 	3) Diamond 
 	4) Exit 
+	
+Your Ticket Details
+	Diamond		3	900
+	Gold		2	500
+	Silver		3 	600
+	Total 		    2000 
 
 
 ---------------------------------------------------------------------
 
 
+array :- collection of same type of data 
+		int a[5];  X 
+		
+		
+		int a[] = new int[5] ; 
+		we can access data from array using index 
+		index starts with zero and ends with size-1 
+		
+		a[0] 
+		a[1]
+		a[2]
+		a[3]
+		a[4] 
+		
 
+---------------------------------------------------------------------
+search in 1D array 
 
-
-
-
+		int a[] = new int[5] ; //a[] => single square 
+		
+		5 numbers from user and store -> array 
+		10 20 30 40 50 
+		search -> 40 
+		40 found in an array 
+		
+		 
+		10 20 30 40 50 
+		search -> 55 
+		55 not found in an array 
+		
+	
+		a[0] => 10 
+		a[1] => 20
+ 		a[2] => 30
+		a[3] => 40
+		a[4] => 50 
+		
 
 
 
    
+
+
+
 
 
 
