@@ -5,8 +5,8 @@
 
 String - immutable 
 
-StringBuffer 
-StringBuilder 
+StringBuffer -- synch     [one by one ]
+StringBuilder -- non sync [facebook -- all at once]
 
 1) Take 2 string from user and merge both the string into 3rd 
 2) Take 1 string from user and remove all the vowels from string. 
@@ -252,10 +252,111 @@ search in 1D array
 		a[3] => 40
 		a[4] => 50 
 		
+---------------------------------------------------------------------
 
-
-
+count how many numbers are ,
+	1 Digit 
+	2 Digit 
+	3 Digit 
+	
+	scan - input from users [ size - 5 ] 
+	1 22 33 400 55 
+		
+	1 Digit :- 1
+	2 Digit :- 3
+	3 Digit :- 1 
+	
+	
+	
+	1 22 33 4000 55 
+		
+	1 Digit :- 1
+	2 Digit :- 3
+	3 Digit :- 0 
+	
+	
+	1) scan all numbers from user 
+	2) take 3 variables to store count of each [ 1digit count =0 , 2digit count =0 , 3 digit count=0 ] 
+	3) for loop and access all the index and check for 1 digit 2 digit and digit 
+			1 digit :- 0 to 9
+			2 digit :- >9 and <  100   
+			3 digit :- >100 and <1000
+			
+	4) print all counters [1 digit count , 2 digit count ,3 digit count ]
    
+---------------------------------------------------------------------
+Quick Q&A :- 
+
+inheritance => extends 
+	class A [ Parent ]
+	class B [ Child ] 
+
+	class B extends A 
+	
+	types ? 5
+		single level
+		multi level 
+		multiple
+		hirerchical
+		hybrid 
+	
+	____super_____ keyword is used to access property of parent class? 
+	
+	
+_constructor_is used to initalize instance variable?
+	types?	
+		default - no arg -
+		parameterized
+		
+String is immutable ? true / false -> true 
+StringBuffer is mutable ? true/false -> true
+
+
+immutable -->
+	String s = "royal";
+	s.toUpperCase(); //royal => ROYAL 
+	print(s) => royal 	
+	
+
+	String s = "royal";
+	s = s.toUpperCase(); //royal => ROYAL 
+	print(s) => ROYAL  	
+	
+
+	StringBuffer sb = new StringBuffer("royal");
+	sb.append("edu");
+	s.o.p(sb); // royaledu 	
+
+-------------------------------------------------------------------------
+non access modifier --> this will tell jvm/jre about a class-method-variable's  behaviour 
+
+final keyword 
+
+	class - yes - final class can not inherited by any class 
+	method - yes - final method can not override - by child 
+	variable - yes - final variable can not modified - constant variable 
+	
+
+-------------------------------------------------------------------------
+
+
+array - Hershal 
+constructor - kush 
+inheritance - Vatsal 
+final - Hirav 
+string - Soham 
+stringbuffer-stringbuilder
+
+
+introduction 
+	defination
+	why?
+	how?
+	what behaviour? 
+	
+
+
+
 
 
 

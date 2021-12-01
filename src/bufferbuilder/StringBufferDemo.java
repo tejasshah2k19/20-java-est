@@ -7,6 +7,8 @@ public class StringBufferDemo {
 		s.concat("education");
 		System.out.println(s);// royal
 
+		
+		StringBuilder sbb1 = new StringBuilder("royal");
 		StringBuffer sb = new StringBuffer("royal"); // extra space-memory 
 		sb.append("education");
 		System.out.println(sb);// royaleducation

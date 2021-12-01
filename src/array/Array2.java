@@ -21,7 +21,7 @@ public class Array2 {
 		search = scr.nextInt();
 
 		for (i = 0; i < a.length; i++) {
-			if (a[i] == search) { // a[0] a[1] a[2] a[3] a[4] 
+			if (a[i] == search) { // a[0] a[1] a[2] a[3] a[4]
 				isFound = 1;// number is present
 			}
 		}
