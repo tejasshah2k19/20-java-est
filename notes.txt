@@ -355,9 +355,17 @@ introduction
 	what behaviour? 
 	
 
+-------------------------------------------------------------------------
+non accessmodifier :- 
 
+static
+		class - No 
+		method - Yes 
+		variable - Yes 
 
-
+	static method and variable both can be call/access using class name,  no need to create object. 
+	static variable created once in the memory. 
+	in side static method we can only access static varibale.
 
 
 
