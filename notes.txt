@@ -371,7 +371,129 @@ static
 
 
 
+-------------------------------------------------------------------------
+Q & A :- 
 
+list out all primitive data types? [total 8 we have ]
+	
+	byte
+	short
+	char
+	int
+	long 
+	float
+	double
+	boolean
+	
+	
+non primitive
+	String 
+	array 
+	enum  [ this will we cover later ] 
+
+
+
+what is inheritance?
+	->	taking property from another class 
+	-> object of one class can take property from another class 
+	
+	types of inheritance?
+	 1)multilevel
+	 2)hirerchical
+	 3)singlelevel 
+	 4)hybrid
+	 5)multiple 
+	 
+	 
+what is constructor ? 
+	its a special method which has same name as class name.
+	
+how many types of constructor we have? - 2 
+	1) default / [ no argument / non parameterized ] 
+	2) argument / parameterized 
+	
+what is the purpose / use of constructor? or why we create constructor?
+	to initialise the instance variable 
+	instance variable -- > those variable who declares at class level 
+	
+	class Student{
+	
+		String firstName; //instance variable 
+		
+		void getData(){
+			int roll; // local variable 
+		}
+	
+	}
+	
+	
+	
+what is the use of final keyword ?
+	final variable :-	 once we assign the value it can not changed
+	final class :-	final class can not inherited - means no one can make them parent 
+	final method :- final method can not override by child 
+
+
+what is an array ?
+	collection of same type of data.
+	we can store multiple data in single data name.
+	
+	how many types of array we have?
+		1) one dimension / single dimension
+		2) two dimension
+		3) multi dimension 
+	
+	using __index_______ we can access values from array?
+	
+	index will starts from ___0____ ? 
+
+
+list out 5 methods of String class?
+	1-> toUpperCase()
+	2-> charAt()
+	3-> length()
+	4-> trim()
+	5-> toLowerCase()
+
+String is mutable or immutable? ___immutable____
+
+
+java suggest ___StringBuffer________ and ____StringBuilder________ class as alternative of String class?
+
+
+
+what is the use of static?
+	static variable - static variable will allocate memory once , only single copy of this
+					  variable is created in memory
+	static method -   we can access static variable inside static method 
+	static class -  we don't have static class 
+	
+	static method and variable both can be access using class name, no need to create instance/object 
+	
+---------------------------------------------------------------
+
+Take one string from user and reverse it.
+
+You can use StringBuffer for above program 
+
+---------------------------------------------------------------
+
+
+
+abstract :- 
+
+
+
+
+
+
+
+
+
+
+	 
+	 
+	 
 
 
 
