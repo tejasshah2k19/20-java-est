@@ -497,13 +497,45 @@ abstract :-
 	we can create enum inside the class or outside the class. 
 	
 	
+---------------------------------------------------------------
 
+package:-	
+	java -> package 
+	windows -> os -> folder 
+	
+	folder -> movies -> 100 [ ABCD ]
+	folder -> movies -> hollywood [ 40 ] 
+						bollywood [ 60 ] 
 
+	java --> classes 
 
+	java 
+		lang -> System,String  
+		util->Date [general purpose ] 
+			regex 
+		io
+		applet 
+		security 
+		sql->Date [ database ] 
+		......
+		......
+		
+    printf -> stdio.h 
+    
+    
+    main -> String
+    		System 
+    		.....
+    		.....
+    		 
+    in all java programs , import java.lang.* ;
+    1) inbuilt 
+    2) user define 
 
+if you have any class in folder then you must have to add package statement in the first line of your java file. 
+if you want to use your class from outside the package  then you must have to import your class using import statement with your package name
 
-
-
+---------------------------------------------------------------
 	 
 	 
 	 
