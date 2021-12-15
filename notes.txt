@@ -478,12 +478,25 @@ You can use StringBuffer for above program
 
 ---------------------------------------------------------------
 
-
-
 abstract :- 
+			create 1 abstract class Employee with two method work and bonusCalc
+			create 1 abstract class FulltimeEmployee with one method getSalary , FullTimeEmployee
+			is child of Employee.
+			now create one non abstract class RoyalEmployee who is child of 
+			FulltimeEmployee 
+			
+---------------------------------------------------------------
+	 
+	In java if we want to create constant variable than what we need to do??
+	final int X = 10; 
+	
+	
+	if we want to create multiple constants variable  then we have enum. 
 
-
-
+	we can create enum using enum keyword like class.
+	we can create enum inside the class or outside the class. 
+	
+	
 
 
 
