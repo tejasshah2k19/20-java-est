@@ -536,20 +536,16 @@ if you have any class in folder then you must have to add package statement in t
 if you want to use your class from outside the package  then you must have to import your class using import statement with your package name
 
 ---------------------------------------------------------------
-	 
-	 
-	 
+	access modifier :- 
+	 		public private protected default** 
+if your method is default then it can not access outside the package. 
+if your method is protected then it can access using inheritance. 
+if your method is public then you can access it using object from any package. [ # ] 
+---------------------------------------------------------------
+static block   :- 
+instance block :-
 
-
-
-
-
-
-
-
-
-
-
+---------------------------------------------------------------
 
 
 
