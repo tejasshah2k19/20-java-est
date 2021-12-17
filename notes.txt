@@ -545,6 +545,23 @@ if your method is public then you can access it using object from any package. [
 static block   :- 
 instance block :-
 
+	create class Movie with 2 instance [title,releaseYeae] and 1 static [langualge]  variable.
+	
+	create 1 static block to assign value to static variable 
+	create 2 instance block to assign value to non static variable. 
+	in first instance block 
+		assign , 	
+				title = "ABCD";
+				releaseYear = 2021;
+	in second instance block 
+		assing, 
+				title = "AllisWell";
+				releaseYear = 2000;
+	  
+	check the output :- what is the value of instance variable. 	
+	
+
+
 ---------------------------------------------------------------
 
 
