@@ -495,6 +495,22 @@ abstract :-
 
 	we can create enum using enum keyword like class.
 	we can create enum inside the class or outside the class. 
+------------------------------------------------------------------------
+interface:- 
+    is a pure abstract class- all methods are implicitly abstract 
+ 
+interface SantaBanta{
+
+}
+
+
+create an interface Movie with 
+3 methods 
+	1)  interval()
+	2)  song()
+	3)  action() 
+	
+create 1 child of Movie name it ABCD. 
 	
 	
 ---------------------------------------------------------------
