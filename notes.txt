@@ -580,7 +580,18 @@ instance block :-
 
 
 ---------------------------------------------------------------
-
+class Food 
+	name 
+	taste 
+	origin
+	price
+	
+	
+create above class with given data members.
+create method for input and print data. 
+create 3 food items and display all at once.  
+---------------------------------------------------------------
+	
 
 
 
