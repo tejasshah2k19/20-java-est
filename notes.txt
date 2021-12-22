@@ -498,7 +498,8 @@ abstract :-
 ------------------------------------------------------------------------
 interface:- 
     is a pure abstract class- all methods are implicitly abstract 
- 
+	-->methods are public and abstract 
+	-->variables are public static final   
 interface SantaBanta{
 
 }
