@@ -591,8 +591,24 @@ create above class with given data members.
 create method for input and print data. 
 create 3 food items and display all at once.  
 ---------------------------------------------------------------
+
+
+class Contact 
+	firstName
+	contactNum
+	country 
+	email 
+	
+create class and add data members.
+create method for input and print data.
+create 5 contacts. 
+
+create 1 method that is use to search contact by name;###  
+
+
 	
 
+---------------------------------------------------------------
 
 
 	
