@@ -609,6 +609,8 @@ create 1 method that is use to search contact by name;###
 	
 
 ---------------------------------------------------------------
+1) take two string from user and compare both are same or not 
+2) take 1 string from user and count total number of characters in it. 
 
 
 	
