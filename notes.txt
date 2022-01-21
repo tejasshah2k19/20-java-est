@@ -611,12 +611,55 @@ create 1 method that is use to search contact by name;###
 ---------------------------------------------------------------
 1) take two string from user and compare both are same or not 
 2) take 1 string from user and count total number of characters in it. 
+3) tkae 1 string from user and print 1st and last charatcter  of string. 
+4) take 2 string from user and check second strng is subset of first string or not. 
+      e.g royal education
+      	  edu 
+      	  
+5) take string and count how many times characater 'a' is present in string. 
+---------------------------------------------------------------
+      	 
 
-
+	
+exception :- 
+	
+	
+	error can be classified in two category 
+	
+	1) compile time error -- java compiler  
+	2) run time error --- after executing java file -- exception 
+	
+	compile time error --> 
+	void add(){
+		int a,b;
+		a=10;
+		b=20;
+		c=a+b;
+		S.o.p(c); 
+	
+	}
+	
+	= instead of == 
+	we miss semicolon ; 
+	{ } 
+	
+	runtime error ---> 
+	void div(){
+		int a,b,c;
+		a=10;b=0;
+		c=a/b;
+		S.o.p(c);
+	}
+	
+	
+	try -> code 
+	hit 
+	throw 
+	catch 
 	
 	
 	
-	
+	all exception class are child of Exception class 
 	
 	
 	
