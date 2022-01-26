@@ -12,21 +12,19 @@ public class RuntimeErrorDemo {
 		int a, b, c;
 
 		try {
+
 			System.out.println("Enter two numbers ");
 			a = scr.nextInt();
 			b = scr.nextInt();
-			c = a / b;
+			c = a / b;// 20/0 -> throw new ArithmeticException();
 			System.out.println(c);
 		} catch (ArithmeticException e) {
-			System.out.println("Please do not enter 0");
+			System.out.println("Please do not enter zero in second value");
 		} catch (InputMismatchException e) {
-			System.out.println("Please enter onyl whole numbers");
-		}catch(NullPointerException e) {
-			System.out.println("Plase restart your app");
+			System.out.println("Please enter only whole numbers");
+		} catch (Exception e) {
+			System.out.println("Something went wrong please try after sometime...");
 		}
-		catch (Exception e) {
-			System.out.println("something went wrong please try after sometime...");
-			// sendBugReportToDeveloper(e); //mail
-		}
+
 	}
 }
